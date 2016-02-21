@@ -159,6 +159,26 @@ hr {
    font-size: 17px;
  }
 
+ /* This code for forms */
+
+form {
+  margin-top: 35px;
+}
+
+form h3 {
+  color: #32B032;
+  font-size: 50px;
+}
+
+form label {
+  color: #32B032;
+}
+
+.thanks a {
+  font-size: 25px;
+  color: #32B032;
+}
+
 /* This code for Footer */
 
 footer {
