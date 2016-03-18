@@ -1,0 +1,285 @@
+/* Pallette: http://paletton.com/#uid=12P0u0keMFF4+WWa2Ppj1vImWrE */
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #D2F9D2;
+}
+
+.section {
+  margin-bottom: 150px;
+  margin-top: 0px;
+  z-index: 2;
+  position: relative;
+  background-color: #D2F9D2;
+}
+
+hr {
+  color: #A2EDA2;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.header {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.header img {
+  height: 150px;
+}
+
+.header p {
+  color: #77DD77;
+  font-size: 75px;
+  letter-spacing: 1px;
+  line-height: 2.4;
+}
+
+.slogan p {
+  font-size: 25px;
+  color: #32B032;
+  text-align: center;
+}
+
+.charity-of-the-day {
+  margin-top: 100px;
+  border-radius: 10px;
+}
+
+.charity-of-the-day p {
+  font-size: 50px;
+  color: #32B032;
+  font-weight: bold;
+  margin-top: 5px;
+ }
+
+.charity-of-the-day-image img {
+  max-width: 290px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.charity-of-the-day-name p {
+  font-size: 25px;
+  color: #32B032;
+  margin-top: -20px;
+  margin-bottom: -2px;
+  text-align: center;
+}
+
+.charity-of-the-day-image button {
+  font-size: 18px;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+
+.charity-of-the-day-image p {
+  font-size: 18px;
+  margin-left: 10px;
+  margin-top: 8px;
+  color: #32B032;
+}
+
+.categories p {
+  font-size: 50px;
+  color: #32B032;
+  font-weight: bold;
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
+#menu {
+  display: none;
+  overflow: hidden;
+  margin-left: 35px;
+  background-color: #A2EDA2;
+  margin-bottom: 20px;
+  color: #32B032;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+#menu a {
+  color: #32B032;
+  font-size: 20px;
+}
+
+#menu a:hover {
+  color: white;
+}
+
+#menu-button {
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+
+#menu-button:hover {
+  color: white;
+  text-shadow: 0.1em 0.1em #32B032;
+  transform: scale(1.2);
+}
+
+.top-week-title p {
+  font-size: 50px;
+  color: #32B032;
+  font-weight: bold;
+  margin-top: 60px;
+ }
+
+.top-week li {
+  font-size: 20px;
+  color: #32B032;
+  font-weight: bold;
+}
+
+ .top-week p {
+  font-size: 20px;
+  color: #32B032;
+  font-weight: normal;
+ }
+
+ .top-week img {
+  max-width: 100px;
+ }
+
+ .top-week button {
+  width: auto;
+  text-align: center;
+  font-size: 13px;
+  margin-left: 10px;
+ }
+
+ .top-week-info p {
+   font-size: 17px;
+ }
+
+ /* This code for forms */
+
+form {
+  margin-top: 35px;
+}
+
+form h3 {
+  color: #32B032;
+  font-size: 50px;
+}
+
+form label {
+  color: #32B032;
+}
+
+.thanks a {
+  font-size: 25px;
+  color: #32B032;
+}
+
+.about-page {
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.about-page p {
+  color: #32B032;
+  font-size: 18px;
+  margin: 20px;
+}
+
+#about-social-media {
+  padding-bottom: 20px;
+}
+
+#about-social-media img {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  width: 40px;
+  transition: all 200ms ease-in-out;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+}
+
+@media (max-width: 550px) {
+  #about-social-media img {
+    padding-top: 20px;
+    width: 64px;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    transition: none;
+  }
+}
+
+#about-social-media img:hover {
+  text-shadow: 0.1em 0.1em #467386;
+  transform: scale(1.5);
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+}
+
+@media (max-width: 550px) {
+  #about-social-media img:hover {
+    transform: scale(1);
+  }
+
+  #google_plus {
+    background-color: #DC422B;
+  }
+
+  #twitter {
+    background-color: #00ABEE;
+  }
+
+  #instagram {
+    background-color:#517FA4;
+  }
+
+  #github {
+    background-color: #3382C0;
+  }
+}
+
+/* This code for Footer */
+
+footer {
+  height: 150px;
+  background-color: #A2EDA2;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+#footer-nav {
+  margin-top: 20px;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: #32B032;
+}
+
+footer span {
+  color: red;
+  -webkit-animation: pulsate 1s ease-out;
+  -webkit-animation-iteration-count: infinite;
+  position: relative;
+}
+
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+}
