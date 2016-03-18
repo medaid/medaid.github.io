@@ -179,6 +179,74 @@ form label {
   color: #32B032;
 }
 
+.about-page {
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.about-page p {
+  color: #32B032;
+  font-size: 18px;
+  margin: 20px;
+}
+
+#about-social-media {
+  padding-bottom: 20px;
+}
+
+#about-social-media img {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  width: 40px;
+  transition: all 200ms ease-in-out;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+}
+
+@media (max-width: 550px) {
+  #about-social-media img {
+    padding-top: 20px;
+    width: 64px;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    transition: none;
+  }
+}
+
+#about-social-media img:hover {
+  text-shadow: 0.1em 0.1em #467386;
+  transform: scale(1.5);
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+}
+
+@media (max-width: 550px) {
+  #about-social-media img:hover {
+    transform: scale(1);
+  }
+
+  #google_plus {
+    background-color: #DC422B;
+  }
+
+  #twitter {
+    background-color: #00ABEE;
+  }
+
+  #instagram {
+    background-color:#517FA4;
+  }
+
+  #github {
+    background-color: #3382C0;
+  }
+}
+
 /* This code for Footer */
 
 footer {
