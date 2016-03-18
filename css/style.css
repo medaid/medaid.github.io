@@ -92,6 +92,10 @@ hr {
   margin-bottom: 10px;
 }
 
+#report {
+  color: orange;
+}
+
 #menu {
   display: none;
   overflow: hidden;
