@@ -22,6 +22,10 @@ hr {
   border-width: 2px;
 }
 
+textarea {
+    resize: none;
+}
+
 .header {
   margin-top: 50px;
   text-align: center;
@@ -94,6 +98,19 @@ hr {
 
 #report {
   color: orange;
+  cursor: pointer;
+}
+
+#report-menu {
+  display: none;
+}
+
+.report-form {
+  font-size: 15px;
+}
+.report-form h5 {
+  font-size: 20px;
+  color: #32B032;
 }
 
 #menu {
