@@ -88,3 +88,24 @@ a:hover {
   margin-left: 20px;
   margin-right: 20px;
 }
+.download{
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+.download button {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #DC3E3E;
+  border: none;
+  font-size: 40px;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+}
+
+.download button:hover {
+  background-color: #FD6767;
+  box-shadow: 3px 3px #FF8989;
+}
