@@ -88,8 +88,8 @@ a:hover {
   margin-left: 20px;
   margin-right: 20px;
 }
-.download{
-  padding-bottom: 80px;
+.download {
+  padding-bottom: 40px;
   padding-top: 80px;
 }
 .download button {
@@ -103,9 +103,41 @@ a:hover {
   border-radius: 12px;
   color: white;
   cursor: pointer;
+  outline: none;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .download button:hover {
   background-color: #FD6767;
   box-shadow: 3px 3px #FF8989;
+}
+
+.download p {
+  font-size: 20px;
+  color: #666666;
+  margin-top: -8px;
+}
+
+.extra_links {
+  background-color: #DC863E;
+  padding-top: 30px;
+}
+
+.extra {
+  margin-bottom: 30px;
+}
+
+.extra_links p {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+.extra_links img {
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;
 }
