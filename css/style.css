@@ -161,8 +161,28 @@ footer .copyright {
     }
 }
 
+@media only screen and (max-width: 500px) {
+    .social {
+      float: none;
+      text-align: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .social img{
+      float: none;
+      text-align: center;
+      margin-right: 30px;
+      margin-left: 30px;
+    }
+}
+
 footer img {
   width: 20px;
-  float: right;
   margin-right: 30px;
+  float: right;
+}
+
+footer img:hover {
+  width: 22px;
 }
