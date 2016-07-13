@@ -174,6 +174,7 @@ input[type="text"],
 input[type="tel"],
 input[type="url"],
 input[type="password"],
+input[type="name"],
 textarea,
 select {
   height: 38px;
@@ -191,6 +192,7 @@ input[type="text"],
 input[type="tel"],
 input[type="url"],
 input[type="password"],
+input[type="name"],
 textarea {
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -206,9 +208,10 @@ input[type="text"]:focus,
 input[type="tel"]:focus,
 input[type="url"]:focus,
 input[type="password"]:focus,
+input[type="name"]:focus,
 textarea:focus,
 select:focus {
-  border: 1px solid #33C3F0;
+  border: 1px solid #B1327A;
   outline: 0; }
 label,
 legend {

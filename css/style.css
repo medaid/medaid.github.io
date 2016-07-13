@@ -22,6 +22,10 @@ a:hover {
   margin-left: 30px;
 }
 
+.title a {
+  color: black;
+}
+
 @media only screen and (max-width: 500px) {
     .title img {
       display: block;
@@ -128,6 +132,10 @@ a:hover {
   margin-bottom: 30px;
 }
 
+.extra_links p:hover {
+  color: #B1327A;
+}
+
 .extra_links p {
   text-align: center;
   color: black;
@@ -152,12 +160,13 @@ footer .copyright {
 }
 
 .copyright a:hover {
-  color: #77DD77;
+  color: #B1327A;
 }
 
 @media only screen and (max-width: 500px) {
     .copyright {
     text-align: center;
+    margin-left: 0px;
     }
 }
 
@@ -183,6 +192,70 @@ footer img {
   float: right;
 }
 
-footer img:hover {
-  width: 22px;
+.subpage_logo h2 {
+  margin-left: 50px;
+  font-size: 70px;
+}
+
+.subpage_logo img {
+  width: 50px;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.subpage_logo h3 {
+  float: right;
+  margin-top: 70px;
+  margin-right: 40px;
+}
+
+@media only screen and (max-width: 500px) {
+    .subpage_logo h2 {
+    text-align: center;
+    margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .subpage_logo h3 {
+    text-align: center;
+    margin-right: 0px;
+    float: none;
+    margin-top: 10px;
+    }
+}
+
+form {
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 120px;
+}
+
+form .button {
+  display: block;
+  background-color: #B1327A;
+  border: none;
+  font-size: 20px;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+form .button:hover {
+  background-color: #CB4C94;
+  box-shadow: 3px 3px #B1327A;
+}
+
+textarea {
+    resize: none;
+}
+
+@media only screen and (max-width: 500px) {
+    form {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
 }

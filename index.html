@@ -26,6 +26,7 @@
 
   <!-- Javascript
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -37,7 +38,7 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="title">
-    <h1>medaid<img src="images/favicon.png"></h1>
+    <a href="/"><h1>medaid<img src="images/favicon.png"></h1></a>
   </div>
   <div class="hero">
     <img src="images/macbook_plain.png">
@@ -50,7 +51,7 @@
       <div class="four columns">
         <img src="images/pretty.png">
         <p>STYLISH</p>
-        <p class="blurb">Created with the <a href="https://snwh.org/paper/icons">Paper icon theme</a> and the <a href="https://github.com/tista500/Adapta">Adapta GTK theme</a> on top of the Gnome 3 desktop, medaid is a breath of fresh air in scientific software.</p>
+        <p class="blurb">Created with the <a target='_blank' href="https://snwh.org/paper/icons">Paper icon theme</a> and the <a target='_blank' href="https://github.com/tista500/Adapta">Adapta GTK theme</a> on top of the Gnome 3 desktop, medaid is a breath of fresh air in scientific software.</p>
         <hr>
       </div>
       <div class="four columns">
@@ -84,25 +85,21 @@
     </div>
     <div class="row">
       <div class="six columns extra">
-        <a href="downloads"><p>More Downloads</p>
+        <a href="downloads.html"><p>More Downloads</p>
         <img src="images/download_black.png"></a>
       </div>
       <div class="six columns extra">
-        <a href="contact"><p>Contact</p>
+        <a href="contact.html"><p>Contact</p>
         <img src="images/contact_black.png"></a>
       </div>
     </div>
   </div>
-  <footer>
-    <div class="row">
-      <div class="six columns">
-        <p class="copyright">&copy; 2016 medaid | By Jack Stanley, <a href="http://steamer360.github.io">JHT</a></p>
-      </div>
-      <div class="social six columns">
-        <a href="bugs"><img alt="Report Bugs" src="images/bug.png"></a><a href="https://twitter.com/medaidos"><img alt="Twitter" src="images/twitter.png"></a>
-      </div>
-    </div>
-  </footer>
+
+  <div id="footer">
+  <script>
+    $("#footer").load("includes/footer.html");
+  </script>
+  </div>
 
 
 
