@@ -197,6 +197,10 @@ footer img {
   font-size: 70px;
 }
 
+.subpage_logo a {
+  color: black;
+}
+
 .subpage_logo img {
   width: 50px;
   margin-left: 20px;
