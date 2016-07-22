@@ -46,9 +46,16 @@
     </div>
   </div>
 
-  <div class="fotorama" data-height="80%" data-autoplay="true" data-stopautoplayontouch="false" data-loop="true" data-keyboard="true" data-navposition="bottom" data-nav="thumbs" data-allowfullscreen="true" data-swipe="true">
-    <img src="images/macbook_environment.jpg" data-caption="">
-    <img src="images/macbook_mercury.png">
+  <div class="fotorama" data-height="90%" data-autoplay="true" data-stopautoplayontouch="false" data-loop="true" data-keyboard="true" data-navposition="bottom" data-nav="thumbs" data-allowfullscreen="true" data-swipe="true">
+    <img src="images/gallery/macbook_environment.jpg" data-caption="">
+    <img src="images/gallery/applications.png" data-caption="">
+    <img src="images/gallery/avogadro.png" data-caption="">
+    <img src="images/gallery/terminal.png" data-caption="">
+    <img src="images/gallery/multitasking_clean.png" data-caption="">
+    <img src="images/gallery/multitasking_dirty.png" data-caption="">
+    <img src="images/gallery/qtiplot.png" data-caption="">
+    <img src="images/gallery/software.png" data-caption="">
+    <img src="images/gallery/lockscreen.png" data-caption="">
   </div>
 
   <div id="footer">
