@@ -175,6 +175,7 @@ footer .copyright {
     .social {
       float: none;
       text-align: center;
+      margin-left:0px;
     }
 }
 
