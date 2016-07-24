@@ -20,33 +20,47 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/skeleton.css">
+  <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
 
   <!-- Javascript
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="icon" type="image/png" href="../images/favicon.png">
 
 </head>
 
 <body>
   <div class="row subpage_logo">
     <div class="six columns">
-      <a href="/"><h2>medaid<img src="images/favicon.png"></h2></a>
+      <a href="/"><h2>medaid<img src="../images/favicon.png"></h2></a>
     </div>
     <div class="six columns">
-      <h3>wiki & <span style="color:#B1327A">guides</span></h3>
+      <h3>screenshot <span style="color:#B1327A">gallery</span></h3>
     </div>
+  </div>
+
+  <div class="fotorama" data-height="90%" data-autoplay="true" data-stopautoplayontouch="false" data-loop="true" data-keyboard="true" data-navposition="bottom" data-nav="thumbs" data-allowfullscreen="true" data-swipe="true">
+    <img src="../images/gallery/macbook_environment.jpg" data-caption="">
+    <img src="../images/gallery/applications.png" data-caption="">
+    <img src="../images/gallery/avogadro.png" data-caption="">
+    <img src="../images/gallery/terminal.png" data-caption="">
+    <img src="../images/gallery/multitasking_clean.png" data-caption="">
+    <img src="../images/gallery/multitasking_dirty.png" data-caption="">
+    <img src="../images/gallery/qtiplot.png" data-caption="">
+    <img src="../images/gallery/software.png" data-caption="">
+    <img src="../images/gallery/lockscreen.png" data-caption="">
   </div>
 
   <div id="footer">
   <script>
-    $("#footer").load("includes/footer.html");
+    $("#footer").load("../includes/footer.html");
   </script>
   </div>
 
