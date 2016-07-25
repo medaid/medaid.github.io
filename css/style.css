@@ -165,7 +165,7 @@ footer .copyright {
 }
 
 @media only screen and (max-width: 500px) {
-    .copyright {
+    footer .copyright {
     text-align: center;
     margin-left: 0px;
     }
@@ -175,7 +175,7 @@ footer .copyright {
     .social {
       float: none;
       text-align: center;
-      margin-left:0px;
+      margin-left: 0px;
     }
 }
 
